@@ -23,8 +23,8 @@ const updateToDo = () =>{
         <div className="toDo">
             {text}
             <div className="icons">
-                <AiFillEdit className="icon" onClick={updateToDo} />
-                <RxCross1 className="icon" onClick={deleteTodo}/>
+                <AiFillEdit className="icon" onClick={updateToDo} data-testid="edit-icon"/>
+                <RxCross1 className="icon" onClick={deleteTodo} data-testid="delete-icon"/>
             </div>
         </div>
     );

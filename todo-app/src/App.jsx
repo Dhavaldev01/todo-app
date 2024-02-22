@@ -41,7 +41,7 @@ const saveToDo = () =>{
                     type="text" 
                     placeholder="Add a ToDo.."
                      />
-                <button onClick={saveToDo}>Add</button>
+                <button onClick={saveToDo}  data-testid="add-todo-button " >Add</button>
                 </div>
 
                 <div className="list">

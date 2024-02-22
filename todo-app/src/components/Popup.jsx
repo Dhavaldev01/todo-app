@@ -27,7 +27,7 @@ const updateToDo = () =>{
                     onChange={(e) => setInput(e.target.value)}
                     type="text" 
                     placeholder="Update ToDo.." />
-                    <button onClick={updateToDo}>Update</button>
+                    <button onClick={updateToDo} data-testid="update-todo-button">Update</button>
                 </div>
             </div>
         </div>
